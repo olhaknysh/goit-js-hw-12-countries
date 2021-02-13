@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.country__name {
+  background: linear-gradient(to right, $primary, $secondary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  margin-top: 0;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.country__list {
+  list-style: none;
+  padding-left: 10px;
+  font-size: 1.4rem;
+}
+
+.country__list-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.country__list-item > p {
+  margin: 0px;
+}
+
+.country__list-languages {
+  list-style: none;
+  font-size: 1.3rem;
+  display: flex;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.country__list-languages > li:not(:last-child) {
+  margin-right: 10px;
+}
+
+.country__image {
+  border-radius: 4px;
+}
